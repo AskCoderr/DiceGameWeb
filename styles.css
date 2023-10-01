@@ -1,0 +1,60 @@
+body {
+    background-color: #2a3440;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#REFRESH {
+    font-family: 'Lobster', cursive;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sub1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+.sub2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+.playertag {
+    font-family: 'Vast Shadow', serif;
+}
+.result {
+    font-family: 'Pixelify Sans', cursive;
+}
+.image {
+    border-radius: 10%;
+    height: 15rem;
+}
+
+#add-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 35px;
+    padding-bottom: 15px;
+}
+
+#brand {
+    font-family: 'Zen Loop', cursive;
+    color: #8a8880;
+    text-align: center ;
+    padding-right: 35px;
+    padding-bottom: 15px;
+}
